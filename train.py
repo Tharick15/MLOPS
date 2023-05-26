@@ -20,9 +20,9 @@ def reset_seeds():
     random.seed(42)
 
 
-MLFLOW_TRACKING_URI = 'https://dagshub.com/renansantosmendes/teste.mlflow'
-MLFLOW_TRACKING_USERNAME = 'renansantosmendes'
-MLFLOW_TRACKING_PASSWORD = '...'
+MLFLOW_TRACKING_URI = 'https://dagshub.com/tharick.khoury/MLOPS.mlflow'
+MLFLOW_TRACKING_USERNAME = 'tharick.khoury'
+MLFLOW_TRACKING_PASSWORD = 'e60646a286f6a46be8bf8aa37b4ebcc242c5c8e1'
 
 os.environ['MLFLOW_TRACKING_USERNAME'] = MLFLOW_TRACKING_USERNAME
 os.environ['MLFLOW_TRACKING_PASSWORD'] = MLFLOW_TRACKING_PASSWORD
